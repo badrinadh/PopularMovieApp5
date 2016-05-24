@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_main_layout"
+    tools:context="newapp.test.test.popularmovieapp1.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:focusable="true"
+            android:clickable="true">
+        </GridView>
+</RelativeLayout>
